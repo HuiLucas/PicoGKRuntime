@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/PicoGKRuntime
+CMAKE_SOURCE_DIR = /workspace/PicoGKRuntime
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/PicoGKRuntime/build
+CMAKE_BINARY_DIR = /workspace/PicoGKRuntime/build
 
 # Include any dependencies generated for this target.
 include openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/depend.make
@@ -70,368 +70,368 @@ include openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/progress.make
 include openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/Grid.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Grid.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.o -MF CMakeFiles/openvdb_shared.dir/Grid.cc.o.d -o CMakeFiles/openvdb_shared.dir/Grid.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/Grid.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.o -MF CMakeFiles/openvdb_shared.dir/Grid.cc.o.d -o CMakeFiles/openvdb_shared.dir/Grid.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Grid.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/Grid.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/Grid.cc > CMakeFiles/openvdb_shared.dir/Grid.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Grid.cc > CMakeFiles/openvdb_shared.dir/Grid.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Grid.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/Grid.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/Grid.cc -o CMakeFiles/openvdb_shared.dir/Grid.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Grid.cc -o CMakeFiles/openvdb_shared.dir/Grid.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Archive.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Archive.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.o -MF CMakeFiles/openvdb_shared.dir/io/Archive.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/Archive.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Archive.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.o -MF CMakeFiles/openvdb_shared.dir/io/Archive.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/Archive.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Archive.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/io/Archive.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Archive.cc > CMakeFiles/openvdb_shared.dir/io/Archive.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Archive.cc > CMakeFiles/openvdb_shared.dir/io/Archive.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Archive.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/io/Archive.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Archive.cc -o CMakeFiles/openvdb_shared.dir/io/Archive.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Archive.cc -o CMakeFiles/openvdb_shared.dir/io/Archive.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Compression.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Compression.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.o -MF CMakeFiles/openvdb_shared.dir/io/Compression.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/Compression.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Compression.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.o -MF CMakeFiles/openvdb_shared.dir/io/Compression.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/Compression.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Compression.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/io/Compression.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Compression.cc > CMakeFiles/openvdb_shared.dir/io/Compression.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Compression.cc > CMakeFiles/openvdb_shared.dir/io/Compression.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Compression.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/io/Compression.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Compression.cc -o CMakeFiles/openvdb_shared.dir/io/Compression.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Compression.cc -o CMakeFiles/openvdb_shared.dir/io/Compression.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/DelayedLoadMetadata.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/DelayedLoadMetadata.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o -MF CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/DelayedLoadMetadata.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o -MF CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/DelayedLoadMetadata.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/DelayedLoadMetadata.cc > CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/DelayedLoadMetadata.cc > CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/DelayedLoadMetadata.cc -o CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/DelayedLoadMetadata.cc -o CMakeFiles/openvdb_shared.dir/io/DelayedLoadMetadata.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/File.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/File.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.o -MF CMakeFiles/openvdb_shared.dir/io/File.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/File.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/File.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.o -MF CMakeFiles/openvdb_shared.dir/io/File.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/File.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/File.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/io/File.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/File.cc > CMakeFiles/openvdb_shared.dir/io/File.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/File.cc > CMakeFiles/openvdb_shared.dir/io/File.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/File.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/io/File.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/File.cc -o CMakeFiles/openvdb_shared.dir/io/File.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/File.cc -o CMakeFiles/openvdb_shared.dir/io/File.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/GridDescriptor.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/GridDescriptor.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o -MF CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/GridDescriptor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o -MF CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/GridDescriptor.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/GridDescriptor.cc > CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/GridDescriptor.cc > CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/GridDescriptor.cc -o CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/GridDescriptor.cc -o CMakeFiles/openvdb_shared.dir/io/GridDescriptor.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Queue.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Queue.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.o -MF CMakeFiles/openvdb_shared.dir/io/Queue.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/Queue.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Queue.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.o -MF CMakeFiles/openvdb_shared.dir/io/Queue.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/Queue.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Queue.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/io/Queue.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Queue.cc > CMakeFiles/openvdb_shared.dir/io/Queue.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Queue.cc > CMakeFiles/openvdb_shared.dir/io/Queue.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Queue.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/io/Queue.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Queue.cc -o CMakeFiles/openvdb_shared.dir/io/Queue.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Queue.cc -o CMakeFiles/openvdb_shared.dir/io/Queue.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Stream.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Stream.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.o -MF CMakeFiles/openvdb_shared.dir/io/Stream.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/Stream.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Stream.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.o -MF CMakeFiles/openvdb_shared.dir/io/Stream.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/Stream.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Stream.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/io/Stream.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Stream.cc > CMakeFiles/openvdb_shared.dir/io/Stream.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Stream.cc > CMakeFiles/openvdb_shared.dir/io/Stream.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/Stream.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/io/Stream.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/Stream.cc -o CMakeFiles/openvdb_shared.dir/io/Stream.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/Stream.cc -o CMakeFiles/openvdb_shared.dir/io/Stream.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/TempFile.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/TempFile.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o -MF CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/TempFile.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o -MF CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o.d -o CMakeFiles/openvdb_shared.dir/io/TempFile.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/TempFile.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/io/TempFile.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/TempFile.cc > CMakeFiles/openvdb_shared.dir/io/TempFile.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/TempFile.cc > CMakeFiles/openvdb_shared.dir/io/TempFile.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/io/TempFile.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/io/TempFile.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/io/TempFile.cc -o CMakeFiles/openvdb_shared.dir/io/TempFile.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/io/TempFile.cc -o CMakeFiles/openvdb_shared.dir/io/TempFile.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Half.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Half.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.o -MF CMakeFiles/openvdb_shared.dir/math/Half.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/Half.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Half.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.o -MF CMakeFiles/openvdb_shared.dir/math/Half.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/Half.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Half.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/math/Half.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Half.cc > CMakeFiles/openvdb_shared.dir/math/Half.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Half.cc > CMakeFiles/openvdb_shared.dir/math/Half.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Half.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/math/Half.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Half.cc -o CMakeFiles/openvdb_shared.dir/math/Half.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Half.cc -o CMakeFiles/openvdb_shared.dir/math/Half.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Maps.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Maps.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.o -MF CMakeFiles/openvdb_shared.dir/math/Maps.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/Maps.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Maps.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.o -MF CMakeFiles/openvdb_shared.dir/math/Maps.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/Maps.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Maps.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/math/Maps.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Maps.cc > CMakeFiles/openvdb_shared.dir/math/Maps.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Maps.cc > CMakeFiles/openvdb_shared.dir/math/Maps.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Maps.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/math/Maps.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Maps.cc -o CMakeFiles/openvdb_shared.dir/math/Maps.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Maps.cc -o CMakeFiles/openvdb_shared.dir/math/Maps.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Proximity.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Proximity.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o -MF CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Proximity.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o -MF CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/Proximity.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Proximity.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/math/Proximity.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Proximity.cc > CMakeFiles/openvdb_shared.dir/math/Proximity.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Proximity.cc > CMakeFiles/openvdb_shared.dir/math/Proximity.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Proximity.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/math/Proximity.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Proximity.cc -o CMakeFiles/openvdb_shared.dir/math/Proximity.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Proximity.cc -o CMakeFiles/openvdb_shared.dir/math/Proximity.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/QuantizedUnitVec.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/QuantizedUnitVec.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o -MF CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/QuantizedUnitVec.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o -MF CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/QuantizedUnitVec.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/QuantizedUnitVec.cc > CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/QuantizedUnitVec.cc > CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/QuantizedUnitVec.cc -o CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/QuantizedUnitVec.cc -o CMakeFiles/openvdb_shared.dir/math/QuantizedUnitVec.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Transform.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Transform.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.o -MF CMakeFiles/openvdb_shared.dir/math/Transform.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/Transform.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Transform.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.o -MF CMakeFiles/openvdb_shared.dir/math/Transform.cc.o.d -o CMakeFiles/openvdb_shared.dir/math/Transform.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Transform.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/math/Transform.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Transform.cc > CMakeFiles/openvdb_shared.dir/math/Transform.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Transform.cc > CMakeFiles/openvdb_shared.dir/math/Transform.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/math/Transform.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/math/Transform.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/math/Transform.cc -o CMakeFiles/openvdb_shared.dir/math/Transform.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/math/Transform.cc -o CMakeFiles/openvdb_shared.dir/math/Transform.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/Metadata.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Metadata.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.o -MF CMakeFiles/openvdb_shared.dir/Metadata.cc.o.d -o CMakeFiles/openvdb_shared.dir/Metadata.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/Metadata.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.o -MF CMakeFiles/openvdb_shared.dir/Metadata.cc.o.d -o CMakeFiles/openvdb_shared.dir/Metadata.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Metadata.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/Metadata.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/Metadata.cc > CMakeFiles/openvdb_shared.dir/Metadata.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Metadata.cc > CMakeFiles/openvdb_shared.dir/Metadata.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Metadata.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/Metadata.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/Metadata.cc -o CMakeFiles/openvdb_shared.dir/Metadata.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Metadata.cc -o CMakeFiles/openvdb_shared.dir/Metadata.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/MetaMap.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/MetaMap.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.o -MF CMakeFiles/openvdb_shared.dir/MetaMap.cc.o.d -o CMakeFiles/openvdb_shared.dir/MetaMap.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/MetaMap.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.o -MF CMakeFiles/openvdb_shared.dir/MetaMap.cc.o.d -o CMakeFiles/openvdb_shared.dir/MetaMap.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/MetaMap.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/MetaMap.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/MetaMap.cc > CMakeFiles/openvdb_shared.dir/MetaMap.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/MetaMap.cc > CMakeFiles/openvdb_shared.dir/MetaMap.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/MetaMap.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/MetaMap.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/MetaMap.cc -o CMakeFiles/openvdb_shared.dir/MetaMap.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/MetaMap.cc -o CMakeFiles/openvdb_shared.dir/MetaMap.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/openvdb.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/openvdb.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.o -MF CMakeFiles/openvdb_shared.dir/openvdb.cc.o.d -o CMakeFiles/openvdb_shared.dir/openvdb.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/openvdb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.o -MF CMakeFiles/openvdb_shared.dir/openvdb.cc.o.d -o CMakeFiles/openvdb_shared.dir/openvdb.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/openvdb.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/openvdb.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/openvdb.cc > CMakeFiles/openvdb_shared.dir/openvdb.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/openvdb.cc > CMakeFiles/openvdb_shared.dir/openvdb.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/openvdb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/openvdb.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/openvdb.cc -o CMakeFiles/openvdb_shared.dir/openvdb.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/openvdb.cc -o CMakeFiles/openvdb_shared.dir/openvdb.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/Platform.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Platform.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.o -MF CMakeFiles/openvdb_shared.dir/Platform.cc.o.d -o CMakeFiles/openvdb_shared.dir/Platform.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/Platform.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.o -MF CMakeFiles/openvdb_shared.dir/Platform.cc.o.d -o CMakeFiles/openvdb_shared.dir/Platform.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Platform.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/Platform.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/Platform.cc > CMakeFiles/openvdb_shared.dir/Platform.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Platform.cc > CMakeFiles/openvdb_shared.dir/Platform.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/Platform.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/Platform.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/Platform.cc -o CMakeFiles/openvdb_shared.dir/Platform.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/Platform.cc -o CMakeFiles/openvdb_shared.dir/Platform.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArray.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArray.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o -MF CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArray.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o -MF CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArray.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArray.cc > CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArray.cc > CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArray.cc -o CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArray.cc -o CMakeFiles/openvdb_shared.dir/points/AttributeArray.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArrayString.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArrayString.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o -MF CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArrayString.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o -MF CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArrayString.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArrayString.cc > CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArrayString.cc > CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArrayString.cc -o CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeArrayString.cc -o CMakeFiles/openvdb_shared.dir/points/AttributeArrayString.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeGroup.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeGroup.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o -MF CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeGroup.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o -MF CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeGroup.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeGroup.cc > CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeGroup.cc > CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeGroup.cc -o CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeGroup.cc -o CMakeFiles/openvdb_shared.dir/points/AttributeGroup.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeSet.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeSet.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o -MF CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeSet.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o -MF CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeSet.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeSet.cc > CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeSet.cc > CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeSet.cc -o CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/AttributeSet.cc -o CMakeFiles/openvdb_shared.dir/points/AttributeSet.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/StreamCompression.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/StreamCompression.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o -MF CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/StreamCompression.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o -MF CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/StreamCompression.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/StreamCompression.cc > CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/StreamCompression.cc > CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/StreamCompression.cc -o CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/StreamCompression.cc -o CMakeFiles/openvdb_shared.dir/points/StreamCompression.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/points.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/points.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.o -MF CMakeFiles/openvdb_shared.dir/points/points.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/points.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/points.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.o -MF CMakeFiles/openvdb_shared.dir/points/points.cc.o.d -o CMakeFiles/openvdb_shared.dir/points/points.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/points.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/points/points.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/points.cc > CMakeFiles/openvdb_shared.dir/points/points.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/points.cc > CMakeFiles/openvdb_shared.dir/points/points.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/points/points.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/points/points.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/points/points.cc -o CMakeFiles/openvdb_shared.dir/points/points.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/points/points.cc -o CMakeFiles/openvdb_shared.dir/points/points.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/util/Assert.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/util/Assert.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.o -MF CMakeFiles/openvdb_shared.dir/util/Assert.cc.o.d -o CMakeFiles/openvdb_shared.dir/util/Assert.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/util/Assert.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.o -MF CMakeFiles/openvdb_shared.dir/util/Assert.cc.o.d -o CMakeFiles/openvdb_shared.dir/util/Assert.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/util/Assert.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/util/Assert.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/util/Assert.cc > CMakeFiles/openvdb_shared.dir/util/Assert.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/util/Assert.cc > CMakeFiles/openvdb_shared.dir/util/Assert.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Assert.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/util/Assert.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/util/Assert.cc -o CMakeFiles/openvdb_shared.dir/util/Assert.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/util/Assert.cc -o CMakeFiles/openvdb_shared.dir/util/Assert.cc.s
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/flags.make
-openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.o: /root/PicoGKRuntime/openvdb/openvdb/openvdb/util/Formats.cc
+openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.o: /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/util/Formats.cc
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.o: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.o"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.o -MF CMakeFiles/openvdb_shared.dir/util/Formats.cc.o.d -o CMakeFiles/openvdb_shared.dir/util/Formats.cc.o -c /root/PicoGKRuntime/openvdb/openvdb/openvdb/util/Formats.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.o"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.o -MF CMakeFiles/openvdb_shared.dir/util/Formats.cc.o.d -o CMakeFiles/openvdb_shared.dir/util/Formats.cc.o -c /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/util/Formats.cc
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/openvdb_shared.dir/util/Formats.cc.i"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/openvdb/openvdb/openvdb/util/Formats.cc > CMakeFiles/openvdb_shared.dir/util/Formats.cc.i
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/util/Formats.cc > CMakeFiles/openvdb_shared.dir/util/Formats.cc.i
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/util/Formats.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/openvdb_shared.dir/util/Formats.cc.s"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/openvdb/openvdb/openvdb/util/Formats.cc -o CMakeFiles/openvdb_shared.dir/util/Formats.cc.s
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/util/Formats.cc -o CMakeFiles/openvdb_shared.dir/util/Formats.cc.s
 
 # Object files for target openvdb_shared
 openvdb_shared_OBJECTS = \
@@ -497,9 +497,9 @@ openvdb/openvdb/openvdb/libopenvdb.so.11.0.1: /usr/local/lib/libblosc.so
 openvdb/openvdb/openvdb/libopenvdb.so.11.0.1: /usr/lib/x86_64-linux-gnu/libz.so
 openvdb/openvdb/openvdb/libopenvdb.so.11.0.1: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.83.0
 openvdb/openvdb/openvdb/libopenvdb.so.11.0.1: openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared library libopenvdb.so"
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openvdb_shared.dir/link.txt --verbose=$(VERBOSE)
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && $(CMAKE_COMMAND) -E cmake_symlink_library libopenvdb.so.11.0.1 libopenvdb.so.11.0 libopenvdb.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX shared library libopenvdb.so"
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/openvdb_shared.dir/link.txt --verbose=$(VERBOSE)
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && $(CMAKE_COMMAND) -E cmake_symlink_library libopenvdb.so.11.0.1 libopenvdb.so.11.0 libopenvdb.so
 
 openvdb/openvdb/openvdb/libopenvdb.so.11.0: openvdb/openvdb/openvdb/libopenvdb.so.11.0.1
 	@$(CMAKE_COMMAND) -E touch_nocreate openvdb/openvdb/openvdb/libopenvdb.so.11.0
@@ -512,10 +512,10 @@ openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/build: openvdb/openvdb/ope
 .PHONY : openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/build
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/clean:
-	cd /root/PicoGKRuntime/build/openvdb/openvdb/openvdb && $(CMAKE_COMMAND) -P CMakeFiles/openvdb_shared.dir/cmake_clean.cmake
+	cd /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb && $(CMAKE_COMMAND) -P CMakeFiles/openvdb_shared.dir/cmake_clean.cmake
 .PHONY : openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/clean
 
 openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/depend:
-	cd /root/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/PicoGKRuntime /root/PicoGKRuntime/openvdb/openvdb/openvdb /root/PicoGKRuntime/build /root/PicoGKRuntime/build/openvdb/openvdb/openvdb /root/PicoGKRuntime/build/openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/PicoGKRuntime /workspace/PicoGKRuntime/openvdb/openvdb/openvdb /workspace/PicoGKRuntime/build /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : openvdb/openvdb/openvdb/CMakeFiles/openvdb_shared.dir/depend
 

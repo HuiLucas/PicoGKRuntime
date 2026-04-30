@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/PicoGKRuntime
+CMAKE_SOURCE_DIR = /workspace/PicoGKRuntime
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/PicoGKRuntime/build
+CMAKE_BINARY_DIR = /workspace/PicoGKRuntime/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/PicoGKRuntime/build/CMakeFiles /root/PicoGKRuntime/build/openvdb/openvdb_cmd/vdb_print//CMakeFiles/progress.marks
-	cd /root/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/PicoGKRuntime/build/CMakeFiles 0
+	cd /workspace/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspace/PicoGKRuntime/build/CMakeFiles /workspace/PicoGKRuntime/build/openvdb/openvdb_cmd/vdb_print//CMakeFiles/progress.marks
+	cd /workspace/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/PicoGKRuntime/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/clean
+	cd /workspace/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/preinstall
+	cd /workspace/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/preinstall
+	cd /workspace/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/PicoGKRuntime/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspace/PicoGKRuntime/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/rule:
-	cd /root/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/rule
+	cd /workspace/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/rule
 .PHONY : openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/rule
 
 # Convenience name for target.
@@ -172,7 +172,7 @@ vdb_print: openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/rule
 
 # fast build rule for target.
 vdb_print/fast:
-	cd /root/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build.make openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build
+	cd /workspace/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build.make openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build
 .PHONY : vdb_print/fast
 
 main.o: main.cc.o
@@ -180,7 +180,7 @@ main.o: main.cc.o
 
 # target to build an object file
 main.cc.o:
-	cd /root/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build.make openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/main.cc.o
+	cd /workspace/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build.make openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/main.cc.o
 .PHONY : main.cc.o
 
 main.i: main.cc.i
@@ -188,7 +188,7 @@ main.i: main.cc.i
 
 # target to preprocess a source file
 main.cc.i:
-	cd /root/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build.make openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/main.cc.i
+	cd /workspace/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build.make openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/main.cc.i
 .PHONY : main.cc.i
 
 main.s: main.cc.s
@@ -196,7 +196,7 @@ main.s: main.cc.s
 
 # target to generate assembly for a file
 main.cc.s:
-	cd /root/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build.make openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/main.cc.s
+	cd /workspace/PicoGKRuntime/build && $(MAKE) $(MAKESILENT) -f openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/build.make openvdb/openvdb_cmd/vdb_print/CMakeFiles/vdb_print.dir/main.cc.s
 .PHONY : main.cc.s
 
 # Help Target
@@ -226,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/PicoGKRuntime/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspace/PicoGKRuntime/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

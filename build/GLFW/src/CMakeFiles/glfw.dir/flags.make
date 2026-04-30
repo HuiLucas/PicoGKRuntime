@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAVE_MEMFD_CREATE -D_DEFAULT_SOURCE -D_GLFW_WAYLAND -D_GLFW_X11
 
-C_INCLUDES = -I/root/PicoGKRuntime/GLFW/include -I/root/PicoGKRuntime/GLFW/src -I/root/PicoGKRuntime/build/GLFW/src
+C_INCLUDES = -I/workspace/PicoGKRuntime/GLFW/include -I/workspace/PicoGKRuntime/GLFW/src -I/workspace/PicoGKRuntime/build/GLFW/src
 
 C_FLAGS = -O3 -DNDEBUG -std=c99 -fPIC -Wall
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/PicoGKRuntime
+CMAKE_SOURCE_DIR = /workspace/PicoGKRuntime
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/PicoGKRuntime/build
+CMAKE_BINARY_DIR = /workspace/PicoGKRuntime/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/picogk.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/picogk.dir/progress.make
 include CMakeFiles/picogk.dir/flags.make
 
 CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o: CMakeFiles/picogk.dir/flags.make
-CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o: /root/PicoGKRuntime/Source/PicoGKGLTexture.cpp
+CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o: /workspace/PicoGKRuntime/Source/PicoGKGLTexture.cpp
 CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o: CMakeFiles/picogk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o -MF CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o.d -o CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o -c /root/PicoGKRuntime/Source/PicoGKGLTexture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o -MF CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o.d -o CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.o -c /workspace/PicoGKRuntime/Source/PicoGKGLTexture.cpp
 
 CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/Source/PicoGKGLTexture.cpp > CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/Source/PicoGKGLTexture.cpp > CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.i
 
 CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/Source/PicoGKGLTexture.cpp -o CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/Source/PicoGKGLTexture.cpp -o CMakeFiles/picogk.dir/Source/PicoGKGLTexture.cpp.s
 
 CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o: CMakeFiles/picogk.dir/flags.make
-CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o: /root/PicoGKRuntime/Source/PicoGKGLViewer.cpp
+CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o: /workspace/PicoGKRuntime/Source/PicoGKGLViewer.cpp
 CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o: CMakeFiles/picogk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o -MF CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o.d -o CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o -c /root/PicoGKRuntime/Source/PicoGKGLViewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o -MF CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o.d -o CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.o -c /workspace/PicoGKRuntime/Source/PicoGKGLViewer.cpp
 
 CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/Source/PicoGKGLViewer.cpp > CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/Source/PicoGKGLViewer.cpp > CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.i
 
 CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/Source/PicoGKGLViewer.cpp -o CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/Source/PicoGKGLViewer.cpp -o CMakeFiles/picogk.dir/Source/PicoGKGLViewer.cpp.s
 
 CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: CMakeFiles/picogk.dir/flags.make
-CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: /root/PicoGKRuntime/Source/PicoGKLibrary.cpp
+CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: /workspace/PicoGKRuntime/Source/PicoGKLibrary.cpp
 CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: CMakeFiles/picogk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o -MF CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o.d -o CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o -c /root/PicoGKRuntime/Source/PicoGKLibrary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o -MF CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o.d -o CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o -c /workspace/PicoGKRuntime/Source/PicoGKLibrary.cpp
 
 CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/PicoGKRuntime/Source/PicoGKLibrary.cpp > CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspace/PicoGKRuntime/Source/PicoGKLibrary.cpp > CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.i
 
 CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/PicoGKRuntime/Source/PicoGKLibrary.cpp -o CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspace/PicoGKRuntime/Source/PicoGKLibrary.cpp -o CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.s
 
 CMakeFiles/picogk.dir/Source/gl/gl.c.o: CMakeFiles/picogk.dir/flags.make
-CMakeFiles/picogk.dir/Source/gl/gl.c.o: /root/PicoGKRuntime/Source/gl/gl.c
+CMakeFiles/picogk.dir/Source/gl/gl.c.o: /workspace/PicoGKRuntime/Source/gl/gl.c
 CMakeFiles/picogk.dir/Source/gl/gl.c.o: CMakeFiles/picogk.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/picogk.dir/Source/gl/gl.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picogk.dir/Source/gl/gl.c.o -MF CMakeFiles/picogk.dir/Source/gl/gl.c.o.d -o CMakeFiles/picogk.dir/Source/gl/gl.c.o -c /root/PicoGKRuntime/Source/gl/gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/picogk.dir/Source/gl/gl.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/picogk.dir/Source/gl/gl.c.o -MF CMakeFiles/picogk.dir/Source/gl/gl.c.o.d -o CMakeFiles/picogk.dir/Source/gl/gl.c.o -c /workspace/PicoGKRuntime/Source/gl/gl.c
 
 CMakeFiles/picogk.dir/Source/gl/gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/picogk.dir/Source/gl/gl.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /root/PicoGKRuntime/Source/gl/gl.c > CMakeFiles/picogk.dir/Source/gl/gl.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /workspace/PicoGKRuntime/Source/gl/gl.c > CMakeFiles/picogk.dir/Source/gl/gl.c.i
 
 CMakeFiles/picogk.dir/Source/gl/gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/picogk.dir/Source/gl/gl.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /root/PicoGKRuntime/Source/gl/gl.c -o CMakeFiles/picogk.dir/Source/gl/gl.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /workspace/PicoGKRuntime/Source/gl/gl.c -o CMakeFiles/picogk.dir/Source/gl/gl.c.s
 
 # Object files for target picogk
 picogk_OBJECTS = \
@@ -149,15 +149,15 @@ lib/picogk.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.83.0
 lib/picogk.so: /usr/lib/x86_64-linux-gnu/librt.a
 lib/picogk.so: /usr/lib/x86_64-linux-gnu/libm.so
 lib/picogk.so: CMakeFiles/picogk.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library lib/picogk.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library lib/picogk.so"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Create build headers"
 	/usr/bin/cmake -E echo Creating\ build\ headers...
-	/usr/bin/cmake -DAPIDIR=/root/PicoGKRuntime/API -DLIB_VERSION=1.7.1 -DLIB_NAME=picogk -P /root/PicoGKRuntime/CMake_Utils/PicoGKBuildHeader.cmake
+	/usr/bin/cmake -DAPIDIR=/workspace/PicoGKRuntime/API -DLIB_VERSION=1.7.1 -DLIB_NAME=picogk -P /workspace/PicoGKRuntime/CMake_Utils/PicoGKBuildHeader.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/picogk.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying header files to Dist folder"
-	/usr/bin/cmake -E copy_directory /root/PicoGKRuntime/API /root/PicoGKRuntime/Dist
+	/usr/bin/cmake -E copy_directory /workspace/PicoGKRuntime/API /workspace/PicoGKRuntime/Dist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying library files to Dist folder"
-	/usr/bin/cmake -E copy_directory /root/PicoGKRuntime/build/lib /root/PicoGKRuntime/Dist
+	/usr/bin/cmake -E copy_directory /workspace/PicoGKRuntime/build/lib /workspace/PicoGKRuntime/Dist
 
 # Rule to build all files generated by this target.
 CMakeFiles/picogk.dir/build: lib/picogk.so
@@ -168,6 +168,6 @@ CMakeFiles/picogk.dir/clean:
 .PHONY : CMakeFiles/picogk.dir/clean
 
 CMakeFiles/picogk.dir/depend:
-	cd /root/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/PicoGKRuntime /root/PicoGKRuntime /root/PicoGKRuntime/build /root/PicoGKRuntime/build /root/PicoGKRuntime/build/CMakeFiles/picogk.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/PicoGKRuntime /workspace/PicoGKRuntime /workspace/PicoGKRuntime/build /workspace/PicoGKRuntime/build /workspace/PicoGKRuntime/build/CMakeFiles/picogk.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/picogk.dir/depend
 

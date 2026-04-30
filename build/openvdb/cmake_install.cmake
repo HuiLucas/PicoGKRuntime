@@ -1,4 +1,4 @@
-# Install script for directory: /root/PicoGKRuntime/openvdb
+# Install script for directory: /workspace/PicoGKRuntime/openvdb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,26 +44,26 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/OpenVDB" TYPE FILE FILES
-    "/root/PicoGKRuntime/openvdb/cmake/FindBlosc.cmake"
-    "/root/PicoGKRuntime/openvdb/cmake/FindJemalloc.cmake"
-    "/root/PicoGKRuntime/openvdb/cmake/FindLog4cplus.cmake"
-    "/root/PicoGKRuntime/openvdb/cmake/FindOpenEXR.cmake"
-    "/root/PicoGKRuntime/openvdb/cmake/FindOpenVDB.cmake"
-    "/root/PicoGKRuntime/openvdb/cmake/FindTBB.cmake"
-    "/root/PicoGKRuntime/openvdb/cmake/OpenVDBGLFW3Setup.cmake"
-    "/root/PicoGKRuntime/openvdb/cmake/OpenVDBHoudiniSetup.cmake"
-    "/root/PicoGKRuntime/openvdb/cmake/OpenVDBMayaSetup.cmake"
-    "/root/PicoGKRuntime/openvdb/cmake/OpenVDBUtils.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/FindBlosc.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/FindJemalloc.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/FindLog4cplus.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/FindOpenEXR.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/FindOpenVDB.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/FindTBB.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/OpenVDBGLFW3Setup.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/OpenVDBHoudiniSetup.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/OpenVDBMayaSetup.cmake"
+    "/workspace/PicoGKRuntime/openvdb/cmake/OpenVDBUtils.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/root/PicoGKRuntime/build/openvdb/openvdb/openvdb/cmake_install.cmake")
+  include("/workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/root/PicoGKRuntime/build/openvdb/openvdb_cmd/cmake_install.cmake")
+  include("/workspace/PicoGKRuntime/build/openvdb/openvdb_cmd/cmake_install.cmake")
 endif()
 

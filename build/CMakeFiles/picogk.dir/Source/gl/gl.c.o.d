@@ -1,5 +1,5 @@
 CMakeFiles/picogk.dir/Source/gl/gl.c.o: \
- /root/PicoGKRuntime/Source/gl/gl.c /usr/include/stdc-predef.h \
+ /workspace/PicoGKRuntime/Source/gl/gl.c /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -61,8 +61,8 @@ CMakeFiles/picogk.dir/Source/gl/gl.c.o: \
  /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /root/PicoGKRuntime/Source/gl/gl.h \
- /root/PicoGKRuntime/Source/gl/khrplatform.h \
+ /workspace/PicoGKRuntime/Source/gl/gl.h \
+ /workspace/PicoGKRuntime/Source/gl/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

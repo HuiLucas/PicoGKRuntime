@@ -1,4 +1,4 @@
-# Install script for directory: /root/PicoGKRuntime/openvdb/openvdb_cmd/vdb_print
+# Install script for directory: /workspace/PicoGKRuntime/openvdb/openvdb_cmd/vdb_print
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,12 +49,12 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vdb_print"
          RPATH "/usr/local/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/root/PicoGKRuntime/build/Dist/vdb_print")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/workspace/PicoGKRuntime/build/Dist/vdb_print")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vdb_print" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vdb_print")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vdb_print"
-         OLD_RPATH "/root/PicoGKRuntime/build/openvdb/openvdb/openvdb:/usr/local/lib:"
+         OLD_RPATH "/workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb:/usr/local/lib:"
          NEW_RPATH "/usr/local/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vdb_print")

@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_IOSTREAMS_NO_LIB -DOPENVDB_STATICLIB -DOPENVDB_USE_DELAYED_LOADING -DPICOGK_BUILD_LIBRARY -Dpicogk_EXPORTS
 
-C_INCLUDES = -I/root/PicoGKRuntime/API -I/root/PicoGKRuntime/openvdb/openvdb/openvdb/.. -I/root/PicoGKRuntime/build/openvdb/openvdb/openvdb -I/root/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb -I/root/PicoGKRuntime/GLFW/include
+C_INCLUDES = -I/workspace/PicoGKRuntime/API -I/workspace/PicoGKRuntime/openvdb/openvdb/openvdb/.. -I/workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb -I/workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb -I/workspace/PicoGKRuntime/GLFW/include
 
 C_FLAGS = -O3 -DNDEBUG -fPIC -O3 -fvisibility=hidden -fvisibility-inlines-hidden
 
 CXX_DEFINES = -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_IOSTREAMS_NO_LIB -DOPENVDB_STATICLIB -DOPENVDB_USE_DELAYED_LOADING -DPICOGK_BUILD_LIBRARY -Dpicogk_EXPORTS
 
-CXX_INCLUDES = -I/root/PicoGKRuntime/API -I/root/PicoGKRuntime/openvdb/openvdb/openvdb/.. -I/root/PicoGKRuntime/build/openvdb/openvdb/openvdb -I/root/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb -I/root/PicoGKRuntime/GLFW/include
+CXX_INCLUDES = -I/workspace/PicoGKRuntime/API -I/workspace/PicoGKRuntime/openvdb/openvdb/openvdb/.. -I/workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb -I/workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb -I/workspace/PicoGKRuntime/GLFW/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++20 -fPIC -O3 -fvisibility=hidden -fvisibility-inlines-hidden
 

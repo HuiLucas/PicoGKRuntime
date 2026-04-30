@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /root/PicoGKRuntime/openvdb
-# Build directory: /root/PicoGKRuntime/build/openvdb
+# Source directory: /workspace/PicoGKRuntime/openvdb
+# Build directory: /workspace/PicoGKRuntime/build/openvdb
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

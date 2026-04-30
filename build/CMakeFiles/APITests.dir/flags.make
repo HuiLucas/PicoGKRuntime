@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_IOSTREAMS_NO_LIB -DOPENVDB_STATICLIB -DOPENVDB_USE_DELAYED_LOADING
 
-CXX_INCLUDES = -I/root/PicoGKRuntime/API -I/root/PicoGKRuntime/openvdb/openvdb/openvdb/.. -I/root/PicoGKRuntime/build/openvdb/openvdb/openvdb -I/root/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb -I/root/PicoGKRuntime/GLFW/include
+CXX_INCLUDES = -I/workspace/PicoGKRuntime/API -I/workspace/PicoGKRuntime/openvdb/openvdb/openvdb/.. -I/workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb -I/workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb -I/workspace/PicoGKRuntime/GLFW/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++20 -fPIE
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/PicoGKRuntime
+CMAKE_SOURCE_DIR = /workspace/PicoGKRuntime
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/PicoGKRuntime/build
+CMAKE_BINARY_DIR = /workspace/PicoGKRuntime/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include GLFW/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include GLFW/src/CMakeFiles/update_mappings.dir/progress.make
 
 GLFW/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/root/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /root/PicoGKRuntime/GLFW/src && /usr/bin/cmake -P /root/PicoGKRuntime/GLFW/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/workspace/PicoGKRuntime/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /workspace/PicoGKRuntime/GLFW/src && /usr/bin/cmake -P /workspace/PicoGKRuntime/GLFW/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: GLFW/src/CMakeFiles/update_mappings
 update_mappings: GLFW/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ GLFW/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : GLFW/src/CMakeFiles/update_mappings.dir/build
 
 GLFW/src/CMakeFiles/update_mappings.dir/clean:
-	cd /root/PicoGKRuntime/build/GLFW/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /workspace/PicoGKRuntime/build/GLFW/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : GLFW/src/CMakeFiles/update_mappings.dir/clean
 
 GLFW/src/CMakeFiles/update_mappings.dir/depend:
-	cd /root/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/PicoGKRuntime /root/PicoGKRuntime/GLFW/src /root/PicoGKRuntime/build /root/PicoGKRuntime/build/GLFW/src /root/PicoGKRuntime/build/GLFW/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/PicoGKRuntime /workspace/PicoGKRuntime/GLFW/src /workspace/PicoGKRuntime/build /workspace/PicoGKRuntime/build/GLFW/src /workspace/PicoGKRuntime/build/GLFW/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : GLFW/src/CMakeFiles/update_mappings.dir/depend
 

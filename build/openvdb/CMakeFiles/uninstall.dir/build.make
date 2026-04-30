@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/PicoGKRuntime
+CMAKE_SOURCE_DIR = /workspace/PicoGKRuntime
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/PicoGKRuntime/build
+CMAKE_BINARY_DIR = /workspace/PicoGKRuntime/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include openvdb/CMakeFiles/uninstall.dir/compiler_depend.make
 include openvdb/CMakeFiles/uninstall.dir/progress.make
 
 openvdb/CMakeFiles/uninstall:
-	cd /root/PicoGKRuntime/build/openvdb && /usr/bin/cmake -P /root/PicoGKRuntime/openvdb/cmake/Uninstall.cmake
+	cd /workspace/PicoGKRuntime/build/openvdb && /usr/bin/cmake -P /workspace/PicoGKRuntime/openvdb/cmake/Uninstall.cmake
 
 uninstall: openvdb/CMakeFiles/uninstall
 uninstall: openvdb/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ openvdb/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : openvdb/CMakeFiles/uninstall.dir/build
 
 openvdb/CMakeFiles/uninstall.dir/clean:
-	cd /root/PicoGKRuntime/build/openvdb && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /workspace/PicoGKRuntime/build/openvdb && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : openvdb/CMakeFiles/uninstall.dir/clean
 
 openvdb/CMakeFiles/uninstall.dir/depend:
-	cd /root/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/PicoGKRuntime /root/PicoGKRuntime/openvdb /root/PicoGKRuntime/build /root/PicoGKRuntime/build/openvdb /root/PicoGKRuntime/build/openvdb/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspace/PicoGKRuntime/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/PicoGKRuntime /workspace/PicoGKRuntime/openvdb /workspace/PicoGKRuntime/build /workspace/PicoGKRuntime/build/openvdb /workspace/PicoGKRuntime/build/openvdb/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : openvdb/CMakeFiles/uninstall.dir/depend
 

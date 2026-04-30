@@ -1,4 +1,4 @@
-# Install script for directory: /root/PicoGKRuntime/openvdb/openvdb_cmd
+# Install script for directory: /workspace/PicoGKRuntime/openvdb/openvdb_cmd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/root/PicoGKRuntime/build/openvdb/openvdb_cmd/vdb_print/cmake_install.cmake")
+  include("/workspace/PicoGKRuntime/build/openvdb/openvdb_cmd/vdb_print/cmake_install.cmake")
 endif()
 

@@ -1,6 +1,7 @@
 CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
- /root/PicoGKRuntime/Source/PicoGKLibrary.cpp /usr/include/stdc-predef.h \
- /root/PicoGKRuntime/Source/PicoGKTypes.h /usr/include/c++/13/limits \
+ /workspace/PicoGKRuntime/Source/PicoGKLibrary.cpp \
+ /usr/include/stdc-predef.h /workspace/PicoGKRuntime/Source/PicoGKTypes.h \
+ /usr/include/c++/13/limits \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -107,10 +108,10 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /root/PicoGKRuntime/API/PicoGK.h \
- /root/PicoGKRuntime/API/PicoGKApiTypes.h \
- /root/PicoGKRuntime/Source/PicoGKLibraryMgr.h \
- /root/PicoGKRuntime/API/PicoGKBuild.h /usr/include/c++/13/string \
+ /workspace/PicoGKRuntime/API/PicoGK.h \
+ /workspace/PicoGKRuntime/API/PicoGKApiTypes.h \
+ /workspace/PicoGKRuntime/Source/PicoGKLibraryMgr.h \
+ /workspace/PicoGKRuntime/API/PicoGKBuild.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/c++/13/bits/char_traits.h \
@@ -168,7 +169,7 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /root/PicoGKRuntime/Source/PicoGKMesh.h /usr/include/c++/13/memory \
+ /workspace/PicoGKRuntime/Source/PicoGKMesh.h /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h \
@@ -248,17 +249,17 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/cassert \
- /usr/include/assert.h /root/PicoGKRuntime/Source/PicoGKLattice.h \
- /root/PicoGKRuntime/Source/PicoGKPolyLine.h \
- /root/PicoGKRuntime/Source/PicoGKVdbVoxels.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/openvdb.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Platform.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Types.h \
- /root/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb/version.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Platform.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/TypeList.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Half.h \
- /root/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb/version.h \
+ /usr/include/assert.h /workspace/PicoGKRuntime/Source/PicoGKLattice.h \
+ /workspace/PicoGKRuntime/Source/PicoGKPolyLine.h \
+ /workspace/PicoGKRuntime/Source/PicoGKVdbVoxels.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/openvdb.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Platform.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Types.h \
+ /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb/version.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Platform.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/TypeList.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Half.h \
+ /workspace/PicoGKRuntime/build/openvdb/openvdb/openvdb/openvdb/version.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/x86intrin.h \
@@ -361,8 +362,8 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/fma4intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/ammintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/xopintrin.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Math.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Assert.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Math.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Assert.h \
  /usr/include/boost/numeric/conversion/conversion_traits.hpp \
  /usr/include/boost/numeric/conversion/detail/conversion_traits.hpp \
  /usr/include/boost/type_traits/is_arithmetic.hpp \
@@ -554,15 +555,15 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/include/c++/13/bits/random.tcc /usr/include/c++/13/numeric \
  /usr/include/c++/13/bits/stl_numeric.h \
  /usr/include/c++/13/pstl/glue_numeric_defs.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/BBox.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Math.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec3.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Exceptions.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/BBox.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Math.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec3.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Exceptions.h \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Tuple.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Quat.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat3.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Tuple.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Quat.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat3.h \
  /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
  /usr/include/c++/13/bits/locale_facets_nonio.h /usr/include/c++/13/ctime \
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
@@ -571,13 +572,13 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
  /usr/include/c++/13/bits/quoted_string.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec2.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec3.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec4.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat3.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat4.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec4.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Coord.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec2.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec3.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec4.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat3.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat4.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Vec4.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Coord.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \
@@ -604,37 +605,37 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/include/oneapi/tbb/detail/_namespace_injection.h \
  /usr/include/oneapi/tbb/version.h \
  /usr/include/oneapi/tbb/detail/_config.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Metadata.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Exceptions.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Math.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Name.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Metadata.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Exceptions.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Math.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Name.h \
  /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
  /usr/include/c++/13/bits/stl_multiset.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Assert.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Maps.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat4.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/BBox.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Coord.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/io.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Types.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Assert.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Maps.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Mat4.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/BBox.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Coord.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/io.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Types.h \
  /usr/include/c++/13/any \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Name.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Transform.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Maps.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Grid.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/MetaMap.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/io.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/Tree.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Metadata.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Count.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Stats.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafManager.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/RootNode.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/Compression.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/MetaMap.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/io.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/DelayedLoadMetadata.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/NodeMasks.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Name.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Transform.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Maps.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Grid.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/MetaMap.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/io.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/Tree.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Metadata.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Count.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Stats.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafManager.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/RootNode.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/Compression.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/MetaMap.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/io.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/DelayedLoadMetadata.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/NodeMasks.h \
  /usr/include/tbb/parallel_for.h /usr/include/oneapi/tbb/parallel_for.h \
  /usr/include/oneapi/tbb/detail/_exception.h \
  /usr/include/oneapi/tbb/detail/_task.h \
@@ -663,23 +664,23 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/include/tbb/parallel_reduce.h \
  /usr/include/oneapi/tbb/parallel_reduce.h /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/NodeManager.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Formats.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/logging.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/InternalNode.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/Iterator.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/NodeUnion.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafNode.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafBuffer.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/NodeManager.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Formats.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/logging.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/InternalNode.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/Iterator.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/NodeUnion.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafNode.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafBuffer.h \
  /usr/include/tbb/spin_mutex.h /usr/include/oneapi/tbb/spin_mutex.h \
  /usr/include/oneapi/tbb/detail/_mutex_common.h \
  /usr/include/oneapi/tbb/detail/_scoped_lock.h \
  /usr/include/oneapi/tbb/detail/_rtm_mutex.h \
  /usr/include/oneapi/tbb/spin_mutex.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafNodeBool.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafNodeMask.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/TreeIterator.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/ValueAccessor.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafNodeBool.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafNodeMask.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/TreeIterator.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/ValueAccessor.h \
  /usr/include/tbb/concurrent_hash_map.h \
  /usr/include/oneapi/tbb/concurrent_hash_map.h \
  /usr/include/oneapi/tbb/detail/_allocator_traits.h \
@@ -692,45 +693,45 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/include/oneapi/tbb/spin_rw_mutex.h \
  /usr/include/oneapi/tbb/detail/_rtm_rw_mutex.h \
  /usr/include/oneapi/tbb/spin_rw_mutex.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/logging.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/PointDataGrid.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Grid.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/Tree.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafNode.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/PointIndexGrid.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/PointPartitioner.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Transform.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/logging.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/PointDataGrid.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/Grid.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/Tree.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/LeafNode.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/PointIndexGrid.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/PointPartitioner.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Transform.h \
  /usr/include/tbb/task_arena.h /usr/include/oneapi/tbb/task_arena.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/thread/Threading.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/thread/Threading.h \
  /usr/include/tbb/task.h /usr/include/oneapi/tbb/task.h \
  /usr/include/tbb/task_group.h /usr/include/oneapi/tbb/task_group.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/AttributeArray.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/QuantizedUnitVec.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/IndexIterator.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/StreamCompression.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/AttributeArrayString.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/AttributeGroup.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/AttributeSet.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/File.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/Archive.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/Compression.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/GridDescriptor.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Composite.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Merge.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/NodeVisitor.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/AttributeArray.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/QuantizedUnitVec.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/IndexIterator.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/StreamCompression.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/AttributeArrayString.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/AttributeGroup.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/AttributeSet.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/File.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/Archive.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/Compression.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/GridDescriptor.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Composite.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Merge.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/NodeVisitor.h \
  /usr/include/c++/13/unordered_set \
  /usr/include/c++/13/bits/unordered_set.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/ValueTransformer.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Prune.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/SignedFloodFill.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/MeshToVolume.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/FiniteDifference.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Proximity.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/NullInterrupter.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Util.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/ValueTransformer.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Prune.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/ChangeBackground.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/ValueTransformer.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Prune.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/SignedFloodFill.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/MeshToVolume.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/FiniteDifference.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Proximity.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/NullInterrupter.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/util/Util.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/ValueTransformer.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Prune.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/ChangeBackground.h \
  /usr/include/tbb/enumerable_thread_specific.h \
  /usr/include/oneapi/tbb/enumerable_thread_specific.h \
  /usr/include/oneapi/tbb/concurrent_vector.h \
@@ -738,31 +739,31 @@ CMakeFiles/picogk.dir/Source/PicoGKLibrary.cpp.o: \
  /usr/include/oneapi/tbb/detail/_exception.h \
  /usr/include/oneapi/tbb/task.h /usr/include/tbb/partitioner.h \
  /usr/include/oneapi/tbb/partitioner.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/VolumeToMesh.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Operators.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/FiniteDifference.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Stencils.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/VolumeToMesh.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Operators.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/FiniteDifference.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Stencils.h \
  /usr/include/c++/13/bitset \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/ValueAccessor.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Transform.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/LevelSetRebuild.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/VolumeToMesh.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/MeshToVolume.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/LevelSetFilter.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/LevelSetTracker.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Stencils.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Morphology.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Activate.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/PointDataGrid.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Interpolation.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/RayIntersector.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/DDA.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Ray.h \
- /root/PicoGKRuntime/Source/PicoGKVdbFile.h \
- /root/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/Stream.h \
- /root/PicoGKRuntime/Source/PicoGKVdbField.h \
- /root/PicoGKRuntime/Source/PicoGKVdbMeta.h \
- /root/PicoGKRuntime/Source/PicoGKGLViewer.h \
- /root/PicoGKRuntime/API/PicoGKApiTypes.h \
- /root/PicoGKRuntime/Source/gl/gl.h \
- /root/PicoGKRuntime/Source/gl/khrplatform.h
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tree/ValueAccessor.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Transform.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/LevelSetRebuild.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/VolumeToMesh.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/MeshToVolume.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/LevelSetFilter.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/LevelSetTracker.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Stencils.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Morphology.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Activate.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/points/PointDataGrid.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/Interpolation.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/tools/RayIntersector.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/DDA.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/math/Ray.h \
+ /workspace/PicoGKRuntime/Source/PicoGKVdbFile.h \
+ /workspace/PicoGKRuntime/openvdb/openvdb/openvdb/../openvdb/io/Stream.h \
+ /workspace/PicoGKRuntime/Source/PicoGKVdbField.h \
+ /workspace/PicoGKRuntime/Source/PicoGKVdbMeta.h \
+ /workspace/PicoGKRuntime/Source/PicoGKGLViewer.h \
+ /workspace/PicoGKRuntime/API/PicoGKApiTypes.h \
+ /workspace/PicoGKRuntime/Source/gl/gl.h \
+ /workspace/PicoGKRuntime/Source/gl/khrplatform.h
